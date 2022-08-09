@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Toggle from "react-toggle";
+import { useState } from "react";
+
 
 function App() {
+  const [isDark, setIsDark] = useState(true);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <nav>
+        <div className="brand">
+          Reel in Digital
+        </div>
+        <div>
+          <Toggle
+          className="dark-mode-toggle"
+          checked={isDark}
+          onChange={({target}) => setIsDark(target.checked)}
+          icons={{ checked: "🌙", unchecked: "🔅"}}
+          aria-label="Dark mode toggle"
+          />
+        </div>
+
+      </nav>
     </div>
   );
 }
