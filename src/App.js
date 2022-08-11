@@ -75,7 +75,7 @@ function App() {
       <nav>
         <div className="brand">Reel in Digital</div>
         <div>{localTheme}</div>
-        <button onClick={toggleTheme}>{localTheme === "dark" ? "Change to light" : "Change to dark"}</button>
+        <button style={{backgroundColor: "blue"}} onClick={toggleTheme}>{localTheme === "dark" ? "Change to light" : "Change to dark"}</button>
       </nav>
     </div>
   );
