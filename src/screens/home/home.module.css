@@ -1,0 +1,96 @@
+.text_slide_first {
+    position: absolute;
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.text_slide_second {
+    position: absolute;
+    animation: fadeInOut 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.text_slide_third {
+    position: absolute;
+    animation: fadeInOut 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+    opacity: 0;
+}
+
+.text_slide_one {
+    opacity: 0;
+    animation: fadeIn 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    transform: translateY(-10px);
+}
+
+.text_slide_two {
+    opacity: 0;
+    animation: fadeIn 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    transform: translateY(-10px);
+}
+
+.text_slide_three {
+    opacity: 0;
+    animation: fadeIn 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    transform: translateY(-10px);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.linkedin {
+    margin: 0 auto;
+    padding: 4px;
+    width: 22px;
+    background: #0e76a8;
+    display: grid;
+    place-items: center;
+    border: "1px solid #03BFCB";
+    border-radius: 4px;
+}
+
+.ben {
+    width: 600px;
+}
