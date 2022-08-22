@@ -1,14 +1,14 @@
 import styles from "./home.module.css";
 import insta from "../../assets/Instagram_icon.png";
-import ben from "../../assets/Ben Camera 1 PNG.png";
+import ben from "../../assets/Ben_camera_hero.png";
 
 export default function Home() {
   return (
     <div className={styles.heroSection}>
-            <div className={styles.hero_image}>
-        <img src={ben} alt="ben" className={styles.ben}/>
+      <div className={styles.hero_container}>
+        <img className={styles.hero} src={ben} alt="Ben"/>
       </div>
-      <h1>Hi, I'm Benny</h1>
+      {/* <h1>Hi, I'm Benny</h1> */}
       {/* <div style={{display: "flex"}}>
         <h3>I'm&nbsp;</h3>
         <h3 >
@@ -17,7 +17,7 @@ export default function Home() {
           <div className={styles.text_slide_third}>an Audio Engineer.</div>
         </h3>
       </div> */}
-      <h3 style={{ display: "flex" }}>
+      {/* <h3 style={{ display: "flex" }}>
         I'm a&nbsp;
         <div className={styles.text_slide_one}>Content Producer</div>
         <div className={styles.text_slide_two}>, Videographer</div>
@@ -39,7 +39,7 @@ export default function Home() {
             <img src={insta} alt="Reel in Digital Instagram" width={26} />
           </a>
         </div>
-      </p>
+      </p> */}
 
     </div>
   );

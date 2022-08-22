@@ -91,15 +91,22 @@
     border-radius: 4px;
 }
 
-.ben {
-    width: 50%;
-    margin: 0 auto;
 
-}
-
-.hero_image {
+/* .hero_image {
     position: absolute;
     z-index: -999;
     width: 100%;
     display: flex;
+} */
+
+.hero_container {
+    
+}
+
+.hero {
+    display: block;
+    width: 100%;
+    max-width: 612px;
+    height: auto;
+    margin: 0 auto;
 }
