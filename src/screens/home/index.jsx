@@ -5,6 +5,9 @@ import ben from "../../assets/Ben Camera 1 PNG.png";
 export default function Home() {
   return (
     <div className={styles.heroSection}>
+            <div className={styles.hero_image}>
+        <img src={ben} alt="ben" className={styles.ben}/>
+      </div>
       <h1>Hi, I'm Benny</h1>
       {/* <div style={{display: "flex"}}>
         <h3>I'm&nbsp;</h3>
@@ -37,9 +40,7 @@ export default function Home() {
           </a>
         </div>
       </p>
-      <div>
-        <img src={ben} alt="ben" className={styles.ben}/>
-      </div>
+
     </div>
   );
 }
