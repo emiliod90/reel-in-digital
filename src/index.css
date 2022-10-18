@@ -88,3 +88,13 @@ code {
 a {
   text-decoration: none;
 }
+
+@font-face {
+  font-family: "Monoton";
+  src: url("./assets/fonts/Monoton-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("./assets/fonts/Lobster-Regular.ttf");
+}

@@ -1,3 +1,12 @@
+.heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lobster";
+    font-size: 48px;
+}
+
+
 .text_slide_first {
     position: absolute;
     animation: fadeOut 1s;
@@ -100,7 +109,8 @@
 } */
 
 .hero_container {
-    
+    padding-left: 50px;
+
 }
 
 .hero {
@@ -109,4 +119,29 @@
     max-width: 612px;
     height: auto;
     margin: 0 auto;
+}
+
+.introText {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.introText p {
+    font-size: 18px;
+}
+
+.myWork {
+    display: flex;
+    max-width: 850px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.myWork p {
+    font-size: 18px;
+}
+
+.mywork_image {
+    max-width: 425px;
+    border-radius: 12px;
 }
