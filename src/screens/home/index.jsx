@@ -25,7 +25,7 @@ export default function Home() {
       </h3> */}
       </section>
       <section className={styles.introText}>
-        <h2>Hi, I'm Benny</h2>
+        <h2>Hi, I'm Benny ok</h2>
         <h3 style={{ display: "flex" }}>
           I'm a&nbsp;
           <div className={styles.text_slide_one}>Content Producer</div>
