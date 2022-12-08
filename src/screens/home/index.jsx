@@ -2,6 +2,7 @@ import styles from "./home.module.css";
 import insta from "../../assets/Instagram_icon.png";
 import ben from "../../assets/Ben_camera_hero.png";
 import mywork_image from "../../assets/home_page_mywork_image.jpg";
+import Banner from "../../components/banner";
 
 export default function Home() {
   return (
@@ -24,6 +25,13 @@ export default function Home() {
         <div className={styles.text_slide_third}>an Audio Engineer.</div>
       </h3> */}
       </section>
+      <section>
+        <Banner/>
+      </section>
+
+
+
+
       <section className={styles.introText}>
         <h2>Hi, I'm Benny ok</h2>
         <h3 style={{ display: "flex" }}>
